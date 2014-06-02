@@ -1,0 +1,25 @@
+{
+    "name": "fieg/propositional-calculus",
+    "license": "MIT",
+    "description": "Implementation of a Propositional Calculus in PHP",
+    "type": "library",
+    "keywords": ["artificial", "intelligence", "propositional", "calculus"],
+    "homepage": "https://github.com/fieg/csp",
+    "authors": [
+      {
+        "name": "fieg",
+        "email": "jeroen@webcreate.nl"
+      }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.1"
+    },
+    "autoload": {
+      "psr-4": {
+        "Fieg\\PC\\": "src/Fieg/PC/"
+      }
+    }
+}
